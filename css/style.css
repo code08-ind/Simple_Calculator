@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: #03001e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #fdeff9,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #fdeff9,
+    #ec38bc,
+    #7303c0,
+    #03001e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 0;
+  padding: 0;
+}
+
+h1.mains {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  margin-top: 10px;
+  font-size: 2.4em;
+  margin-bottom: 55px;
+  font-family: "Do Hyeon", sans-serif;
+  color: rgb(176, 233, 70);
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  margin-top: -45px;
+  margin-bottom: 55px;
+}
+
+.container {
+  position: fixed;
+  margin-top: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+.display {
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.buttons {
+  padding: 20px 20px 0 20px;
+}
+.row {
+  width: 280px;
+  float: left;
+}
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 10px 5px 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  background: whitesmoke;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #5e5858;
+  outline: none;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+}
+
+input[type="button"].center {
+  width: 100%;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 270px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: black;
+  outline: none;
+  text-align: right;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0 15px 10px 15px;
+  font-family: "Goblin One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background: #ff0509 !important;
+  color: white !important;
+  margin-bottom: 200px;
+}
